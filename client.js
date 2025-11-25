@@ -80,6 +80,7 @@ app.get("/callback", function (req, res) {
     Authorization: "Basic " + encodeClientCredentials(client.client_id, client.client_secret),
   };
 
+  // make the token request
   var tokRes = request("POST", authServer.tokenEndpoint, {
     body: form_data,
     headers: headers,
