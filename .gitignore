@@ -1,0 +1,111 @@
+database.nosql
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Logs and runtime files
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+coverage/
+coverage-final.json
+*.seed
+*.pid
+*.pid.lock
+
+# Node
+node_modules/
+dist/
+build/
+.next/
+out/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+env/
+pip-wheel-metadata/
+*.egg-info/
+*.egg
+
+# Java / JVM
+target/
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+.mvn/
+build/
+
+# Go
+bin/
+pkg/
+
+# .NET / C#
+bin/
+obj/
+*.user
+*.suo
+*.vs/
+
+# Docker
+docker-compose.override.yml
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+*.env
+.envrc
+secrets/
+*.secret
+*.secrets
+credentials
+credentials.json
+client_secret*.json
+client_secrets.json
+tokens.json
+token.json
+oauth2_token.json
+*.key
+*.pem
+*.p12
+*.crt
+*.jks
+*.pfx
+private/
+
+# Certificates / keys
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+
+# Misc
+.vagrant/
+*.swp
+*~ 
+.DS_Store
+
+# Keep sample or template config files tracked
+!*.sample
+!*.example
