@@ -1,0 +1,3 @@
+### Access Token으로 보호 자원 요청
+POST http://localhost:9002/resource
+Authorization: Bearer nlsO5qKGkMmIeanBCCF6pYgk7A8XBOgI
